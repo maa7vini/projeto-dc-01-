@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: #212343;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.danki-logo {
+    margin: 0px 35px;
+}
+
+header {
+    height: 80vh;
+    width: 100%;
+    background-image: url(imagens/header_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-txt {
+    background-color: #1b173dbd;
+    width: 700px;
+    padding: 0px 30px;
+    color: rgb(204, 204, 204);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-txt li {
+    margin: 10px 0px;
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-form form {
+    height: 470px;
+    width: 350px;
+    color: gray;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid gray;
+}
+
+.form-titulo {
+    width: 340px;
+    margin-top: -10px;
+    padding: 0px 10px;
+}
+
+.form-titulo p {
+    font-size: 1.1em;
+}
+
+.form-inputs {
+    width: 95%;
+    margin-top: 10px;
+    height: 250px;
+}
+
+.form-inputs input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    margin: 10px 0px;
+}
+
+.form-btn button {
+    margin-top: 50px;
+    padding: 15px 80px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color: #363A6D;
+    border: none;
+}
+
+.form-btn button:hover {
+    background-color: #414681;
+    cursor: pointer;
+}
+
+.lorem-txt {
+    height: 50vh;
+    background-color: #BFBFBF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.lorem-txt h1 {
+    color: rgb(34, 33, 33);
+}
+
+.lorem-txt p {
+    width: 750px;
+    text-align: justify;
+    margin-top: 10px;
+    color: rgb(117, 113, 113);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.089);
+}
+
+.lorem-img img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+.aprenda-mercado {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aprenda-mercado-titulo {
+    color: #363A6D;
+}
+
+.aprenda-mercado-section {
+    display: flex;
+    align-items: center;
+    
+}
+
+.aprenda-mercado section {
+    height: 350px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aprenda-mercado section p {
+    width: 350px;
+    text-align: center;
+}
