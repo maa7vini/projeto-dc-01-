@@ -10,6 +10,8 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
@@ -164,4 +166,10 @@ header {
 .aprenda-mercado section p {
     width: 350px;
     text-align: center;
+}
+
+@media (max-width:1045px) {
+    .header-txt {
+        width: 500px;
+    }
 }
